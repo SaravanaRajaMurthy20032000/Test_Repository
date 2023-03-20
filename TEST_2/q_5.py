@@ -1,0 +1,7 @@
+tuple1 = (3, 4, 5, 6)
+tuple2 = (5, 7, 4, 10)
+t = set(tuple1) - set(tuple2)
+t1 = set(tuple2) - set(tuple1)
+t3 = list(t) + list(t1)
+t4= sorted(t3)
+print(t4)
