@@ -1,3 +1,4 @@
+# 1. Write a program "count_digits.py" to print the number of digits in the given number
 num = input("enter the num: ")
 count = 0
 for i in num:
